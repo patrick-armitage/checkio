@@ -63,7 +63,7 @@ def diagonal_match(mtrx):
 
 def checkio(matrix):
     match = False
-    if horizontal_match(matrix) or vertical_match_2(matrix) or diagonal_match_2(matrix):
+    if horizontal_match(matrix) or vertical_match(matrix) or diagonal_match(matrix):
         match = True
     return match
 
